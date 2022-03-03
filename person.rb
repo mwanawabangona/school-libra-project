@@ -1,3 +1,5 @@
+# rubocop: disable Style/OptionalBooleanParameter
+
 require_relative './corrector'
 class Person
   attr_accessor :name, :age, :rentals, :parent_permission
@@ -32,6 +34,8 @@ class Person
     of_age? || parent_permission
   end
 end
+
+# rubocop: enable Style/OptionalBooleanParameter
 
 person = Person.new(100, 'Ellisngona')
 person.validate_name

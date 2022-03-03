@@ -1,3 +1,5 @@
+# rubocop: disable Style/OptionalBooleanParameter
+
 require './person'
 require './classroom'
 
@@ -12,6 +14,8 @@ class Student < Person
   def play_hooky
     "¯\(ツ)/¯"
   end
+
+  # rubocop: enable Style/OptionalBooleanParameter
 
   def classroom=(classroom)
     @classroom = classroom

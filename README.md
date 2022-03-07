@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Ellis Ngona** 
-- GitHub: [@Chimwemwe-127001](https://github.com/mwanawabangona)
+- GitHub: [@mwanawabangona](https://github.com/mwanawabangona)
 
 
 
